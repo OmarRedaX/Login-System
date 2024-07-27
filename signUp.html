@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sign Up</title>
+    <link rel="icon" href="images/icon.png" />
+
+    <!--------------------------   Fontawsome   -------------------------->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!--------------------------   Bootstrap   -------------------------->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!--------------------------   Main Css   -------------------------->
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+    <div class="main d-flex justify-content-center align-items-center">
+
+        <div class="box shadow-lg p-5 container w-25 text-center">
+
+            <div class="my-5">
+
+                <div><i class="fa-solid fa-user-tie border border-3 border-white text-white p-4 rounded-circle fs-0 mb-3"></i></div>
+                <h3 class="text-white pb-4">Smart Login System</h3>
+
+                <div><input id="signupName" class="form-control my-3 ui-autocomplete-input" placeholder="Enter your Name" type="text" autocomplete="on" required></div>
+                <div><input id="signupEmail" class="form-control my-3 ui-autocomplete-input" placeholder="Enter your email" type="text" autocomplete="on" required></div>
+                <div><input id="signupPassword" class="form-control my-3" placeholder="Enter a password" type="password" required></div>
+
+                <p id="error" class="text-danger"></p>
+
+                <div class="d-grid gap-2 pt-2"><button id="signupBtn" type="button" class="btn btn-blue">Sign Up</button></div>
+
+                <p class="text-white mt-2">You have an account?
+                    <a class="text-white link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="index.html">Sign In</a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--------------------------   Bootstrap js   -------------------------->
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+
+    <!--------------------------   main js   -------------------------->
+    <script src="js/index.js" defer></script> 
+
+</body>
+
+</html>

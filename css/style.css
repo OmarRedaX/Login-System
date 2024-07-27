@@ -1,0 +1,56 @@
+.main {
+    background-image: url(../images/backgroun\ 2.gif);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.692);
+}
+
+.form-control{
+    background-color: transparent !important;
+    color: white !important;
+}
+
+#signinEmail::-webkit-input-placeholder , #signinPassword::-webkit-input-placeholder ,  #signupPassword::-webkit-input-placeholder ,  #signupEmail::-webkit-input-placeholder, #signupName::-webkit-input-placeholder{
+    color: rgb(255, 255, 255); 
+}
+
+.fs-0 {
+    font-size: 100px;
+}
+
+.fs-9 {
+    font-size: 12px;
+}
+
+.btn-blue{
+    background-color: #000c3f;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #001263;
+    color: white;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.home{
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    margin-top: 300px;
+
+}
+
+@media (max-width:1400px) {
+    .w-25{
+        width: 75% !important;
+    }
+}
